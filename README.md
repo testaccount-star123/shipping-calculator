@@ -1,2 +1,3 @@
-# shipping-calculator
-Fictional shipping cost calculator with automated tests. Sample project.
+Shipping Calculator
+
+A small Python function that calculates shipping cost by weight, with automated tests that run on every pull request.
