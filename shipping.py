@@ -1,5 +1,3 @@
-shipping.py:
-
 def shipping_cost(weight_kg, express=False):
     if weight_kg <= 0:
         raise ValueError("weight must be positive")
