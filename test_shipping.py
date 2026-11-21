@@ -17,3 +17,7 @@ def test_one_kg_express():
 def test_rejects_zero_weight():
     with pytest.raises(ValueError):
         shipping_cost(0)
+
+
+def test_two_kg_express():
+    assert shipping_cost(2, express=True) == 9.9
